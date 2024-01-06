@@ -4,7 +4,7 @@
     % kantorovicevaAproksimacija
     % odsekomaLinearnaAproksimacija
 
-funkcija = @(x) cos(2*x);               % Funkcija, ki jo aproksimiramo
+funkcija3 = @(x) cos(2*x);               % Funkcija, ki jo aproksimiramo
 funkcija2 = @(x) abs(x).*cos(x.^2);     % Funkcija, ki jo aproksimiramo
 
 n = 6;                    % Na koliko delov delimo interval
